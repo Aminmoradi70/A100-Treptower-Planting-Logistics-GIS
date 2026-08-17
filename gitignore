@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local / non-public source data
+data/raw/
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+
+# Generated outputs
+outputs/*.geojson
+outputs/*.csv
